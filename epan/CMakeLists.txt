@@ -115,6 +115,7 @@ set(LIBWIRESHARK_FILES
 	guid-utils.c
 	iana_charsets.c
 	in_cksum.c
+	ip_version.c
 	ipproto.c
 	ipv4.c
 	media_params.c

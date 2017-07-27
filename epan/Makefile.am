@@ -90,6 +90,7 @@ LIBWIRESHARK_SRC = \
 	in_cksum.c		\
 	ipproto.c		\
 	ipv4.c			\
+	ip_version.c	\
 	media_params.c		\
 	next_tvb.c		\
 	oids.c			\
@@ -234,6 +235,7 @@ LIBWIRESHARK_INCLUDES = \
 	iax2_codec_type.h	\
 	in_cksum.h		\
 	ip_opts.h		\
+	ip_version.h	\
 	ipproto.h		\
 	ipv4.h			\
 	ipv6.h			\
