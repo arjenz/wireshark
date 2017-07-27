@@ -34,7 +34,7 @@
 #include <epan/dissectors/packet-ip.h>
 #include <epan/strutil.h>
 
-static const value_string ipproto_val[] = {
+const value_string ipproto_val[] = {
 #if 0
     { IP_PROTO_IP,  "IPv4" },
 #endif
